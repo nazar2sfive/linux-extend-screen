@@ -1,14 +1,3 @@
-# Tutorial
-
-Do you have any old **Android tablet** at home? Then you have a new **second screen** for your laptop! With this tutorial you will be able to use any Android device to extend your screen on Linux. For this purpose we are going to use a wireless connection, but it can also be done through a [USB cable](#adb-support). The tutorial seems very long but it is because I will explain each step in detail so that anyone can follow it. 
-
-> I guess this tutorial can also be done with an iPad or other laptop instead of an Android tablet, but I haven't checked it.
-
-### Test environment
-- Laptop with Ubuntu 18.04
-- Nvidia Geforce GTX 1660Ti
-- Intel Core i7-9750H (Intel UHD Graphics 630)
-
 ### Necessary software
 - In the computer:
 	- a VNC server (as for example _x11vnc_)
@@ -36,17 +25,7 @@ eDP-1-1 connected 1920x1080+0+0 (normal left inverted right x axis y axis) 344mm
    1920x1080    144.00*+  60.01    59.97    59.96    59.93  
    1680x1050     84.94    74.89    69.88    59.95    59.88  
    1600x1024     60.17  
-   1400x1050     85.00    74.76    70.00    59.98  
-   1600x900      59.99    59.94    59.95    59.82  
-   1280x1024     85.02    75.02    60.02  
-   1440x900      59.89  
-   [...]
-   480x270       59.63    59.82  
-   400x300       85.27    72.19    75.12    60.32    56.34  
-   432x243       59.92    59.57  
-   320x240       85.18    72.81    75.00    60.05  
-   360x202       59.51    59.13  
-   360x200       85.04  
+ 
    320x200       85.27  
    320x180       59.84    59.32  
    320x175       85.27  
@@ -240,7 +219,6 @@ Or use `-localhost`, that achieves the same thing as `-allow 127.0.0.1`
 
 
 
-[More information about security](http://www.karlrunge.com/x11vnc/faq.html#faq-passwd)
 
 
 ## Known issues
@@ -256,4 +234,3 @@ Or use `-localhost`, that achieves the same thing as `-allow 127.0.0.1`
 - https://github.com/brunodles/linux-second-screen/blob/master/tutorial.md
 - https://github.com/mrenrich84/vnc_virtual_display_linker
 
-**X11vnc** is a really powerful tool. I strongly recommend you to take a look at the [**documentation**](http://www.karlrunge.com/x11vnc)
